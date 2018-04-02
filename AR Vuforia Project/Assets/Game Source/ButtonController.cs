@@ -7,18 +7,15 @@ using UnityEngine.SceneManagement;
 public class ButtonController : MonoBehaviour {
 
     Scene myScene;
-    public GameObject itemPanel;
-    public GameObject nextPanel;
-    public GameObject backPanel;
+    public GameObject itemObject;
+    public GameObject nextObject;
+    public GameObject backObject;
 
     public Canvas iCanvas;
     public Canvas nCanvas;
     public Canvas bCanvas;
 
-    public PagesController pController;
-    public GameObject oName;
    
-
 
     // Use this for initialization
     void Start () {
@@ -30,16 +27,7 @@ public class ButtonController : MonoBehaviour {
         myScene = SceneManager.GetActiveScene();
        
     }
-    void TaskOnClick()
-    {
 
-        if(myScene.name == "Main")
-            SceneManager.LoadScene("Inventory");
-
-        if (myScene.name == "Inventory")
-            SceneManager.LoadScene("Main");
-
-    }
     public void InventoryButton() {
 
         SceneManager.LoadScene("Inventory");
@@ -50,37 +38,23 @@ public class ButtonController : MonoBehaviour {
         SceneManager.LoadScene("Main");
     }
 
-    public void NextPage()
-    {
-   
-        //nextPanel = pController.oPages[pController.ReturnPos(oName) + 1];
-        //nextPanel.SetActive(true);
-        //itemPanel.SetActive(false);
-    }
-
-    public void BackPage() {
-       //backPanel = pController.oPages[pController.ReturnPos(oName) -1];
-       //backPanel.SetActive(true);
-       //itemPanel.SetActive(false);
-    }
 
     public void nPage() {
 
-        itemPanel.SetActive(false);
+        itemObject.SetActive(false);
         iCanvas.enabled = false;
 
-        nextPanel.SetActive(true);
-        nCanvas.enabled = true;
-        
+        nextObject.SetActive(true);
+        nCanvas.enabled = true; 
     }
 
     public void bPage() {
-        itemPanel.SetActive(false);
+
+        itemObject.SetActive(false);
         iCanvas.enabled = true;
 
-        backPanel.SetActive(true);
+        backObject.SetActive(true);
         bCanvas.enabled = true;
-
     }
  
 
