@@ -6,11 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class InventoryManager : MonoBehaviour {
 
-    int itensFound;
+
     GameObject arMask;
     GameObject arBB8;
     Scene myScene;
-
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +25,7 @@ public class InventoryManager : MonoBehaviour {
 	void Update () {
 
         myScene = SceneManager.GetActiveScene();
+
     }
 
     public void ObjectFound(string name)
@@ -33,14 +33,12 @@ public class InventoryManager : MonoBehaviour {
 
         if (name == "Mask")
         {
-
-            itensFound++;
+           
         }
 
         if (name == "BB8")
         {
 
-            itensFound++;
         }
     }
 }
