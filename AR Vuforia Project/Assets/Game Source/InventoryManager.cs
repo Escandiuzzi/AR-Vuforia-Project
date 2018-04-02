@@ -10,6 +10,11 @@ public class InventoryManager : MonoBehaviour {
     GameObject arMask;
     GameObject arBB8;
     Scene myScene;
+    PagesController pControl;
+    bool maskF;
+    bool bb8F;
+    bool mCalled;
+    bool bCalled;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +23,11 @@ public class InventoryManager : MonoBehaviour {
         arMask = GameObject.Find("ar10");
         arBB8 = GameObject.Find("ar7");
 
+        maskF = false;
+        bb8F = false;
+        mCalled = false;
+        bCalled = false;
+
         myScene = SceneManager.GetActiveScene();
     }
 	
@@ -25,6 +35,20 @@ public class InventoryManager : MonoBehaviour {
 	void Update () {
 
         myScene = SceneManager.GetActiveScene();
+        if (myScene.name == "Inventory") {
+
+            pControl = FindObjectOfType<PagesController>();
+            if (maskF == true && mCalled == false) {
+
+                pControl.SetPage(0);
+                mCalled = true;
+            }
+            if (bb8F == true && bCalled == false)
+            {
+                pControl.SetPage(1);
+                bCalled = true;
+            }
+        }
 
     }
 
@@ -33,12 +57,12 @@ public class InventoryManager : MonoBehaviour {
 
         if (name == "Mask")
         {
-           
+            maskF = true;
         }
 
         if (name == "BB8")
         {
-
+            bb8F = true;
         }
     }
 }

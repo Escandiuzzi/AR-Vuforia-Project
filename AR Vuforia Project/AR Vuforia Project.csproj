@@ -316,6 +316,7 @@
     <Compile Include="Assets\Game Source\FloatingText.cs" />
     <Compile Include="Assets\Game Source\ImageTargetInventory.cs" />
     <Compile Include="Assets\Game Source\InventoryManager.cs" />
+    <Compile Include="Assets\Game Source\PagesController.cs" />
     <Compile Include="Assets\Game Source\RotateObject.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />

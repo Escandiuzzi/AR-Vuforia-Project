@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 22105203}
   - component: {fileID: 22105202}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 103644783}
   - component: {fileID: 103644782}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1776,7 +1776,7 @@ GameObject:
   - component: {fileID: 255651912}
   - component: {fileID: 255651911}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1793,7 +1793,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1744083064}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1985,7 +1985,7 @@ GameObject:
   - component: {fileID: 304534502}
   - component: {fileID: 304534501}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4051,8 +4051,9 @@ GameObject:
   m_Component:
   - component: {fileID: 751322654}
   - component: {fileID: 751322655}
+  - component: {fileID: 751322656}
   m_Layer: 0
-  m_Name: Pages Found
+  m_Name: Pages Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4084,21 +4085,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97803748afb053346be8249a89dd9bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foundPages:
-  - {fileID: 690044941}
-  - {fileID: 402637740}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  uPages:
+--- !u!114 &751322656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 751322653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127457df723fb61469fbb971cbb0600d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objs:
   - {fileID: 1744083060}
   - {fileID: 862666252}
-  - {fileID: 304534499}
+  - {fileID: 933904438}
   - {fileID: 304534499}
   - {fileID: 22105200}
   - {fileID: 899034357}
@@ -4106,6 +4107,7 @@ MonoBehaviour:
   - {fileID: 1091882908}
   - {fileID: 103644780}
   - {fileID: 1864116506}
+  spr_mask: {fileID: 0}
 --- !u!1 &784536693
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,7 +4321,7 @@ GameObject:
   - component: {fileID: 862666254}
   - component: {fileID: 862666253}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4558,7 +4560,7 @@ GameObject:
   - component: {fileID: 899034360}
   - component: {fileID: 899034359}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4900,7 +4902,7 @@ GameObject:
   - component: {fileID: 933904441}
   - component: {fileID: 933904440}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5627,7 +5629,7 @@ GameObject:
   - component: {fileID: 1091882911}
   - component: {fileID: 1091882910}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5968,7 +5970,7 @@ RectTransform:
   m_Children:
   - {fileID: 1536036882}
   m_Father: {fileID: 1744083064}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.6186667}
@@ -8061,7 +8063,7 @@ GameObject:
   - component: {fileID: 1657088382}
   - component: {fileID: 1657088381}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8555,7 +8557,7 @@ GameObject:
   - component: {fileID: 1744083063}
   - component: {fileID: 1744083062}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8630,9 +8632,9 @@ RectTransform:
   m_Children:
   - {fileID: 1688933028}
   - {fileID: 1141603168}
+  - {fileID: 255651910}
   - {fileID: 1865347124}
   - {fileID: 1141674381}
-  - {fileID: 255651910}
   m_Father: {fileID: 318084940}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9227,7 +9229,7 @@ GameObject:
   - component: {fileID: 1864116510}
   - component: {fileID: 1864116509}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9341,7 +9343,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1744083064}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
