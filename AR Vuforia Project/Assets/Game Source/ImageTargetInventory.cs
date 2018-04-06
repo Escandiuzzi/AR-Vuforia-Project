@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Vuforia;
 
 public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
 {
     protected TrackableBehaviour mTrackableBehaviour;
     InventoryManager theInventory;
-    bool fmask, fbb;
+    [SerializeField] bool[] fObjects;
     public  FloatingText fText;
+    Scene myScene;
 
     // Use this for initialization
     void Start () {
@@ -21,13 +23,21 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
         }
 
         theInventory = FindObjectOfType<InventoryManager>();
-        fmask = false;
-        fbb = false;
+
+        fObjects = new bool[10];
+
+        for (int i = 0; i < fObjects.Length; i++) {
+            fObjects[i] = false;
+        }
     }
 	
 	// Update is called once per frame
 	void Update () {
-        
+        myScene = SceneManager.GetActiveScene();
+        if (myScene.name == "Inventory") {
+
+            VuforiaBehaviour.Instance.enabled = false;
+        }
 
     }
 
@@ -42,30 +52,130 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
         {
          
 
-            if (mTrackableBehaviour.TrackableName == "10Ace")
+            if (mTrackableBehaviour.TrackableName == "10")
             {
-                if(fmask == false)
+                Debug.Log("Entrou no if ar1");
+                if(fObjects[0] == false)
                 {
-                    theInventory.ObjectFound("Mask");
+                    theInventory.ObjectFound("Barrel");
                     fText.PopUpText();
                 }
-                fmask = true;
 
-               
+                fObjects[0] = true;
+
+            }
+
+            if (mTrackableBehaviour.TrackableName == "8")
+            {
+                Debug.Log("Entrou no primeiro if ar2");
+
+                if (fObjects[1] == false)
+                {
+                    Debug.Log("Entrou no SEGUNDO if ar2");
+
+                    theInventory.ObjectFound("Bomb");
+                    fText.PopUpText();
+                }
+
+                fObjects[1] = true;
+
+            }
+
+            if (mTrackableBehaviour.TrackableName == "9")
+            {
+                if (fObjects[2] == false)
+                {
+                    theInventory.ObjectFound("Mug");
+                    fText.PopUpText();
+                }
+
+                fObjects[2] = true;
+
+            }
+
+            if (mTrackableBehaviour.TrackableName == "5")
+            {
+                if (fObjects[3] == false)
+                {
+                    theInventory.ObjectFound("Hat");
+                    fText.PopUpText();
+                }
+
+                fObjects[3] = true;
+
+            }
+
+            if (mTrackableBehaviour.TrackableName == "6")
+            {
+                if (fObjects[4] == false)
+                {
+                    theInventory.ObjectFound("Lunette");
+                    fText.PopUpText();
+                }
+
+                fObjects[4] = true;
+
+            }
+
+            if (mTrackableBehaviour.TrackableName == "4")
+            {
+                if (fObjects[5] == false)
+                {
+                    theInventory.ObjectFound("Pistol");
+                    fText.PopUpText();
+                }
+
+                fObjects[5] = true;
+
+            }
+
+            if (mTrackableBehaviour.TrackableName == "1")
+            {
+                if (fObjects[6] == false)
+                {
+                    theInventory.ObjectFound("Chest");
+                    fText.PopUpText();
+                }
+
+                fObjects[6] = true;
+
+            }
+
+            if (mTrackableBehaviour.TrackableName == "2")
+            {
+                if (fObjects[7] == false)
+                {
+                    theInventory.ObjectFound("Sword");
+                    fText.PopUpText();
+                }
+
+                fObjects[7] = true;
+
             }
 
             if (mTrackableBehaviour.TrackableName == "7")
             {
-                if(fbb == false)
+                if (fObjects[8] == false)
                 {
-                    theInventory.ObjectFound("BB8");
+                    theInventory.ObjectFound("Key");
                     fText.PopUpText();
                 }
-                fbb = true;
-               
+
+                fObjects[8] = true;
+
             }
 
+            if (mTrackableBehaviour.TrackableName == "3")
+            {
+                if (fObjects[9] == false)
+                {
+                    theInventory.ObjectFound("Ship");
+                    fText.PopUpText();
+                }
 
+                fObjects[9] = true;
+
+            }
 
         }
   

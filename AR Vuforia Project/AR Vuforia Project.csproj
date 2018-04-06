@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3B65101D-BC96-DB0E-0BB2-04F9596470EF}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
@@ -256,10 +256,12 @@
     <Compile Include="Assets\Game Source\ButtonController.cs" />
     <Compile Include="Assets\Game Source\CameraFocusController.cs" />
     <Compile Include="Assets\Game Source\FloatingText.cs" />
+    <Compile Include="Assets\Game Source\GetPages.cs" />
     <Compile Include="Assets\Game Source\ImageTargetInventory.cs" />
     <Compile Include="Assets\Game Source\InventoryManager.cs" />
     <Compile Include="Assets\Game Source\PagesController.cs" />
     <Compile Include="Assets\Game Source\RotateObject.cs" />
+    <Compile Include="Assets\Game Source\TEST.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Drone.cs" />
@@ -308,6 +310,7 @@
     <None Include="Assets\SamplesResources\SceneAssets\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
     <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\CardsDatabase.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\PirateAR.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
