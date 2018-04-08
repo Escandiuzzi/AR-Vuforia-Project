@@ -8,21 +8,20 @@ using Vuforia;
 public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
 {
     protected TrackableBehaviour mTrackableBehaviour;
-    InventoryManager theInventory;
+    public GameObject contPages;
     [SerializeField] bool[] fObjects;
     public  FloatingText fText;
     Scene myScene;
 
     // Use this for initialization
     void Start () {
-
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
         {
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         }
 
-        theInventory = FindObjectOfType<InventoryManager>();
+        contPages = GameObject.Find("ContPages");
 
         fObjects = new bool[10];
 
@@ -54,10 +53,9 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
 
             if (mTrackableBehaviour.TrackableName == "10")
             {
-                Debug.Log("Entrou no if ar1");
                 if(fObjects[0] == false)
                 {
-                    theInventory.ObjectFound("Barrel");
+                    contPages.GetComponent<ContPages>().addObj(0);
                     fText.PopUpText();
                 }
 
@@ -67,13 +65,11 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
 
             if (mTrackableBehaviour.TrackableName == "8")
             {
-                Debug.Log("Entrou no primeiro if ar2");
 
                 if (fObjects[1] == false)
                 {
-                    Debug.Log("Entrou no SEGUNDO if ar2");
+                    contPages.GetComponent<ContPages>().addObj(1);
 
-                    theInventory.ObjectFound("Bomb");
                     fText.PopUpText();
                 }
 
@@ -85,7 +81,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[2] == false)
                 {
-                    theInventory.ObjectFound("Mug");
+                    contPages.GetComponent<ContPages>().addObj(2);
+
                     fText.PopUpText();
                 }
 
@@ -97,7 +94,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[3] == false)
                 {
-                    theInventory.ObjectFound("Hat");
+                    contPages.GetComponent<ContPages>().addObj(3);
+
                     fText.PopUpText();
                 }
 
@@ -109,7 +107,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[4] == false)
                 {
-                    theInventory.ObjectFound("Lunette");
+                    contPages.GetComponent<ContPages>().addObj(4);
+
                     fText.PopUpText();
                 }
 
@@ -121,7 +120,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[5] == false)
                 {
-                    theInventory.ObjectFound("Pistol");
+                    contPages.GetComponent<ContPages>().addObj(5);
+
                     fText.PopUpText();
                 }
 
@@ -133,7 +133,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[6] == false)
                 {
-                    theInventory.ObjectFound("Chest");
+                    contPages.GetComponent<ContPages>().addObj(6);
+
                     fText.PopUpText();
                 }
 
@@ -145,7 +146,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[7] == false)
                 {
-                    theInventory.ObjectFound("Sword");
+                    contPages.GetComponent<ContPages>().addObj(7);
+
                     fText.PopUpText();
                 }
 
@@ -157,7 +159,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[8] == false)
                 {
-                    theInventory.ObjectFound("Key");
+                    contPages.GetComponent<ContPages>().addObj(8);
+
                     fText.PopUpText();
                 }
 
@@ -169,7 +172,8 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
             {
                 if (fObjects[9] == false)
                 {
-                    theInventory.ObjectFound("Ship");
+                    contPages.GetComponent<ContPages>().addObj(9);
+
                     fText.PopUpText();
                 }
 

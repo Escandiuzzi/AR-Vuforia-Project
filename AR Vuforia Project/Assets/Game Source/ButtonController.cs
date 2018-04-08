@@ -3,58 +3,50 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Vuforia;
 
 public class ButtonController : MonoBehaviour {
+    
+    public GameObject main;
+    public GameObject op;
 
-    Scene myScene;
-    public GameObject itemObject;
-    public GameObject nextObject;
-    public GameObject backObject;
-
-    public Canvas iCanvas;
-    public Canvas nCanvas;
-    public Canvas bCanvas;
-
+    GameObject contPage;
+    public int indice;
    
 
     // Use this for initialization
     void Start () {
-  
+        //main = GameObject.Find("Canvas");
+        contPage = GameObject.Find("ContPages");
     }
-	
-	// Update is called once per frame
-	void Update () {
-        myScene = SceneManager.GetActiveScene();
+
+    // Update is called once per frame
+    void Update () {
        
     }
 
     public void InventoryButton() {
-
-        SceneManager.LoadScene("Inventory");
+        VuforiaBehaviour.Instance.enabled = false;
+        main.SetActive(false);
+        GameObject temp = contPage.GetComponent<ContPages>().getPage(0);
+        temp.SetActive(true);
     }
 
     public void CameraSceneButton() {
-
-        SceneManager.LoadScene("Main");
+        VuforiaBehaviour.Instance.enabled = true;
+        op.SetActive(true);
+        main.SetActive(false);
     }
 
 
     public void nPage() {
-
-        itemObject.SetActive(false);
-        iCanvas.enabled = false;
-
-        nextObject.SetActive(true);
-        nCanvas.enabled = true; 
+        op.SetActive(true);
+        main.SetActive(false);
     }
 
     public void bPage() {
-
-        itemObject.SetActive(false);
-        iCanvas.enabled = true;
-
-        backObject.SetActive(true);
-        bCanvas.enabled = true;
+        op.SetActive(true);
+        main.SetActive(false);
     }
  
 
