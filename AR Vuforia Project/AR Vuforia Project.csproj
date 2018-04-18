@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3B65101D-BC96-DB0E-0BB2-04F9596470EF}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
@@ -253,12 +253,15 @@
     <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
     <Compile Include="Assets\Common\TapHandler.cs" />
     <Compile Include="Assets\Common\TrackableSettings.cs" />
+    <Compile Include="Assets\Game Source\Block.cs" />
     <Compile Include="Assets\Game Source\ButtonController.cs" />
     <Compile Include="Assets\Game Source\CameraFocusController.cs" />
     <Compile Include="Assets\Game Source\ContPages.cs" />
     <Compile Include="Assets\Game Source\FloatingText.cs" />
+    <Compile Include="Assets\Game Source\ImageSlicer.cs" />
     <Compile Include="Assets\Game Source\ImageTargetInventory.cs" />
     <Compile Include="Assets\Game Source\PageStatus.cs" />
+    <Compile Include="Assets\Game Source\Puzzle.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Drone.cs" />

@@ -33,7 +33,7 @@ public class ImageTargetInventory : MonoBehaviour, ITrackableEventHandler
 	// Update is called once per frame
 	void Update () {
         myScene = SceneManager.GetActiveScene();
-        if (myScene.name == "Inventory") {
+        if (myScene.name == "puzzle") {
 
             VuforiaBehaviour.Instance.enabled = false;
         }
