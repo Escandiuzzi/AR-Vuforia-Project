@@ -9,6 +9,7 @@ public class RiddleController : MonoBehaviour {
     public string answer;
     public FloatingText fText;
     public FloatingText wText;
+    public GameObject Text;
 
 
     // Use this for initialization
@@ -24,6 +25,7 @@ public class RiddleController : MonoBehaviour {
         if (Field.text == answer)
         {
             fText.PopUpText();
+            Text.SetActive(true);
         }
         else
         {

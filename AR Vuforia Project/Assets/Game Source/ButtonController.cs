@@ -12,7 +12,7 @@ public class ButtonController : MonoBehaviour {
 
     GameObject contPage;
     public int indice;
-
+    
     // Use this for initialization
     void Start () {
 
@@ -46,6 +46,8 @@ public class ButtonController : MonoBehaviour {
         op.SetActive(true);
         main.SetActive(false);
     }
- 
 
+    public void DPanel() {
+        main.SetActive(false);
+    }
 }
