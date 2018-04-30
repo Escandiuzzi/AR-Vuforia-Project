@@ -9,17 +9,15 @@ public class PCont : MonoBehaviour {
     public bool puzzle;
     public bool pDone = false;
     public GameObject ArCamera;
+    public GameObject back;
 
     void Start () {
-
+        puzzle = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(Input.GetKeyUp(KeyCode.Space))
-        {
-            puzzle = true;
-        }
+        
         if(pDone)
         {
             puzzle = false;
@@ -33,6 +31,7 @@ public class PCont : MonoBehaviour {
         {
             VuforiaBehaviour.Instance.enabled = true;
             ArCamera.SetActive(true);
+            back.GetComponent<ButtonController>().puzzleBack();
         }
     }
     public void puzzleDone()

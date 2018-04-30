@@ -9,7 +9,8 @@ public class ButtonController : MonoBehaviour {
     
     public GameObject main;
     public GameObject op;
-
+    public GameObject puzzle;
+    public GameObject ArCamera;
     GameObject contPage;
     public int indice;
     
@@ -49,5 +50,19 @@ public class ButtonController : MonoBehaviour {
 
     public void DPanel() {
         main.SetActive(false);
+    }
+
+    public void puzzleGo()
+    {
+        main.SetActive(false);
+        puzzle.SetActive(true);
+    }
+
+    public void puzzleBack()
+    {
+        ArCamera.SetActive(true);
+        op.SetActive(true);
+        main.SetActive(false);
+        
     }
 }

@@ -8,7 +8,7 @@ public class PageStatus : MonoBehaviour {
     // Use this for initialization
     bool achou;
     public string nome;
-    public Sprite spr;
+    public GameObject but;
 	void Start () {
 		
 	}
@@ -22,7 +22,7 @@ public class PageStatus : MonoBehaviour {
         else
         {
             gameObject.transform.GetChild(3).GetComponent<Text>().text = nome;
-            gameObject.transform.GetChild(2).GetComponent<Image>().sprite = spr;
+            but.SetActive(true);
         }
     }
 
