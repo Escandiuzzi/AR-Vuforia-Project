@@ -164,5 +164,6 @@ public class Puzzle : MonoBehaviour {
 
         state = PuzzleState.Solved;
         emptyBlock.gameObject.SetActive(true);
+        GetComponent<PCont>().puzzleDone();
     }
 }

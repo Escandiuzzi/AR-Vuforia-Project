@@ -14,7 +14,6 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2017.4.0f1</UnityVersion>
@@ -265,6 +264,7 @@
     <Compile Include="Assets\Game Source\ImageSlicer.cs" />
     <Compile Include="Assets\Game Source\ImageTargetInventory.cs" />
     <Compile Include="Assets\Game Source\PageStatus.cs" />
+    <Compile Include="Assets\Game Source\PCont.cs" />
     <Compile Include="Assets\Game Source\Puzzle.cs" />
     <Compile Include="Assets\Game Source\RiddleController.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
