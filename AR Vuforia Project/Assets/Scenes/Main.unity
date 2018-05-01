@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -452,7 +452,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.10033, y: -24}
+  m_AnchoredPosition: {x: 0.10033, y: 11.9}
   m_SizeDelta: {x: 288.2, y: 38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44535589
@@ -1388,7 +1388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.199997, y: -97.5}
+  m_AnchoredPosition: {x: 2.199997, y: -105.7}
   m_SizeDelta: {x: 272.5, y: 125.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199126013
@@ -1412,10 +1412,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1423,7 +1423,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\"O que seria de um pirata sem uma espada para amea\xE7ar um prisioneiro
+    na prancha do seu navio? Essa espada foi construida por um grande amigo meu\""
 --- !u!222 &199126014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1630,7 +1631,7 @@ GameObject:
   - component: {fileID: 218759102}
   - component: {fileID: 218759101}
   m_Layer: 0
-  m_Name: BGD (1)
+  m_Name: BGD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1644,7 +1645,7 @@ Transform:
   m_GameObject: {fileID: 218759099}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.857}
-  m_LocalScale: {x: 7.4858, y: 7.92294, z: 0.08889}
+  m_LocalScale: {x: 10.5840025, y: 11.202063, z: 0.12567952}
   m_Children: []
   m_Father: {fileID: 1202363815}
   m_RootOrder: 2
@@ -1890,6 +1891,32 @@ Prefab:
       propertyPath: m_Name
       value: Riddle 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_Text
+      value: "\xC9 o item que sustenda o pirata\nsem isso ele n\xE3o vai a lugar nenhum,
+        \xE0s vezes ele esquece mesmo estando embaixo do seu nariz"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 153.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 306.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114628047895207490, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: answer
+      value: Perna de pau
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
   m_IsPrefabParent: 0
@@ -1949,10 +1976,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1960,7 +1987,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\"Talvez essa seja a lembran\xE7a do maior roubo que eu e minha tripula\xE7\xE3o
+    fizemos, um grande navio imperial cruzou nosso caminho no mar, encontramos muitos
+    objetos de luxo\""
 --- !u!222 &277046802
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2429,7 +2458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.199997, y: -98}
+  m_AnchoredPosition: {x: 2.199997, y: -82.4}
   m_SizeDelta: {x: 272.5, y: 124.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324009693
@@ -2453,10 +2482,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2464,7 +2493,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '"Minha arma foi uma das primeiras coisas que comprei com o dinheiro das
+    minhas primeiras aventuras como marujo, isso foi muito importante para minha caminhada"'
 --- !u!222 &324009694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3340,7 +3370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.199997, y: -98.6}
+  m_AnchoredPosition: {x: 2.199997, y: -86.7}
   m_SizeDelta: {x: 272.5, y: 123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &410472869
@@ -3364,10 +3394,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -3375,7 +3405,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\"Ap\xF3s dias em alto mar, acordar com o som de gaivotas, correr para
+    o deck com luneta e avistar ao horizonte terra firme \xE9 uma sensa\xE7\xE3o muito
+    boa\""
 --- !u!222 &410472870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4246,6 +4278,58 @@ Prefab:
       propertyPath: m_Name
       value: Riddle 1
       objectReference: {fileID: 0}
+    - target: {fileID: 224594727925165104, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224326556128785400, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_Text
+      value: "Se voc\xEA quer saber para onde vai\r, h\xE1 um item que \xE9 o melhor\r
+        para ajudar voc\xEA a saber qual dire\xE7\xE3o\r\n\xC9 norte, sul, leste e
+        oeste"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 77.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 428.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 354.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114628047895207490, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: answer
+      value: Bussola
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
   m_IsPrefabParent: 0
@@ -4351,8 +4435,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 488674714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.35}
+  m_LocalScale: {x: 1.4817033, y: 1.4817035, z: 1.4817035}
   m_Children:
   - {fileID: 2034887636}
   - {fileID: 27764755}
@@ -4448,10 +4532,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -4459,7 +4543,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\"N\xE3o existe coisa mais satisfat\xF3ria do que para em um bar com sua
+    tripula\xE7\xE3o depois de uma expedi\xE7\xE3o lucrativa para tomar um rum, jogar
+    carta e descan\xE7ar um pouco\""
 --- !u!222 &495039826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6417,7 +6503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.10001, y: -24}
+  m_AnchoredPosition: {x: 0.10001, y: 4}
   m_SizeDelta: {x: 288.2, y: 38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &692321073
@@ -6880,7 +6966,7 @@ Transform:
   m_GameObject: {fileID: 741750573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.857}
-  m_LocalScale: {x: 7.4858, y: 7.92294, z: 0.08889}
+  m_LocalScale: {x: 12.129842, y: 12.838176, z: 0.14403561}
   m_Children: []
   m_Father: {fileID: 127295192}
   m_RootOrder: 2
@@ -6970,7 +7056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.199997, y: -97.5}
+  m_AnchoredPosition: {x: 2.199997, y: -101.2}
   m_SizeDelta: {x: 272.5, y: 125.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749353746
@@ -6994,10 +7080,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -7005,7 +7091,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\"Primeiro ba\xFA que encontrei enquanto saqueei um pequeno barco que tentava
+    entrar no pa\xEDs com algumas j\xF3ias e moedas\""
 --- !u!222 &749353747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7932,6 +8019,38 @@ Prefab:
     - target: {fileID: 1636432865494466, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
       propertyPath: m_Name
       value: Riddle 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_Text
+      value: "Se voc\xEA encontrar um ba\xFA do tesouro\r\nO valor do que est\xE1
+        dentro \xE9 \xF3timo\r\nH\xE1 muita moeda brilhante\r\nTamb\xE9m conhecido
+        como peda\xE7os de oito"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_FontData.m_RichText
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114628047895207490, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: answer
+      value: Moeda de Ouro
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 104
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 405
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
@@ -10764,6 +10883,47 @@ Prefab:
       propertyPath: m_Name
       value: Riddle 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_Text
+      value: "Para come\xE7ar uma aventura pirata\r\nVoc\xEA precisa disso sem falhar\r\nSe
+        voc\xEA quiser viajar\r\nVoc\xEA precisa de algo para navegar"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114628047895207490, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: answer
+      value: Navio
+      objectReference: {fileID: 0}
+    - target: {fileID: 224326556128785400, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -113
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 135.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 341.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 467.75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
   m_IsPrefabParent: 0
@@ -12663,10 +12823,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -12674,7 +12834,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\"N\xE3o existe maior satisfa\xE7\xE3o na vida de um pirata, do que comprar
+    o seu navio e montar um tripula\xE7\xE3o e o mais importante ganhar o nome de
+    capit\xE3o\""
 --- !u!222 &1577855703
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13021,10 +13183,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -13032,7 +13194,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\"O meu ch\xE1peu \xE9 uma das poucas coisas que eu fa\xE7o quest\xE3o
+    de conservar, foi um presente do meu pai, me tras grandes lembran\xE7as de quem
+    me ensinou a ser o pirata que sou\""
 --- !u!222 &1611559144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13356,6 +13520,51 @@ Prefab:
     - target: {fileID: 1636432865494466, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
       propertyPath: m_Name
       value: Riddle 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_Text
+      value: "Se voc\xEA acha que h\xE1 um eco\r\nUma segunda voz que pode ser ouvida\r\nN\xE3o
+        \xE9 uma pessoa que est\xE1 causando isso"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943170581133982, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000060797
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 452.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224042281250189512, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 224326556128785400, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -81
+      objectReference: {fileID: 0}
+    - target: {fileID: 114628047895207490, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: answer
+      value: Papagaio
+      objectReference: {fileID: 0}
+    - target: {fileID: 1883749451826196, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
@@ -13765,8 +13974,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1652058649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.69}
+  m_LocalScale: {x: 1.557025, y: 1.5570246, z: 1.5570246}
   m_Children:
   - {fileID: 1741721633}
   - {fileID: 1381949900}
@@ -15965,18 +16174,20 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 14
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 2
+    m_MaxSize: 223
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: New Text
+    m_LineSpacing: 0.6
+  m_Text: "\"Como eu adoro bombas, me lembro como se fosse ontem, o dia em que fiz
+    minha primeira bomba caseira, exagerei um pouco na polvora, mas o foi muito \xFAtil
+    em uma de minhas batalhas\""
 --- !u!222 &1901345029
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16850,7 +17061,7 @@ Transform:
   m_GameObject: {fileID: 2004142036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.857}
-  m_LocalScale: {x: 7.4858, y: 7.92294, z: 0.08889}
+  m_LocalScale: {x: 11.145805, y: 11.796668, z: 0.1323506}
   m_Children: []
   m_Father: {fileID: 1021139165}
   m_RootOrder: 2

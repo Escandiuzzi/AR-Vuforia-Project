@@ -65,4 +65,8 @@ public class ButtonController : MonoBehaviour {
         main.SetActive(false);
         
     }
+    public void StartGame() {
+
+        SceneManager.LoadScene("Main");            
+    }
 }
