@@ -9,7 +9,7 @@ public class Puzzle : MonoBehaviour {
     public int shuffleLength = 20;
     public float defaultMoveDuration = .2f;
     public float shuffleMoveDuration = .1f;
-
+    public GameObject dText;
     enum PuzzleState { Solved, Shuffling, InPlay };
     PuzzleState state;
 
@@ -165,5 +165,6 @@ public class Puzzle : MonoBehaviour {
         state = PuzzleState.Solved;
         emptyBlock.gameObject.SetActive(true);
         GetComponent<PCont>().puzzleDone();
+        dText.SetActive(true);
     }
 }
