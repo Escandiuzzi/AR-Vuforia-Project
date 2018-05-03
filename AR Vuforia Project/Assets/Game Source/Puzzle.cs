@@ -12,13 +12,14 @@ public class Puzzle : MonoBehaviour {
     public GameObject dText;
     enum PuzzleState { Solved, Shuffling, InPlay };
     PuzzleState state;
-
     Block emptyBlock;
     Block[,] blocks;
     Queue<Block> inputs;
     bool blockIsMoving;
     int shuffleMovesRemaining;
     Vector2Int prevShuffleOffset;
+
+    bool completou = false;
 
     void Start()
     {
@@ -161,10 +162,13 @@ public class Puzzle : MonoBehaviour {
                 return;
             }
         }
-
-        state = PuzzleState.Solved;
-        emptyBlock.gameObject.SetActive(true);
-        GetComponent<PCont>().puzzleDone();
-        dText.SetActive(true);
+        if (completou == false)
+        {
+            state = PuzzleState.Solved;
+            emptyBlock.gameObject.SetActive(true);
+            GetComponent<PCont>().puzzleDone();
+            dText.SetActive(true);
+            completou = true;
+        }
     }
 }

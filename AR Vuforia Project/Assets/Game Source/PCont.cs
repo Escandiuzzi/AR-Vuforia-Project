@@ -10,9 +10,10 @@ public class PCont : MonoBehaviour {
     public bool pDone = false;
     public GameObject ArCamera;
     public GameObject back;
-
+    GameObject trofeu;
     void Start () {
         puzzle = true;
+        trofeu = GameObject.Find("Trofeu");
 	}
 	
 	// Update is called once per frame
@@ -37,6 +38,7 @@ public class PCont : MonoBehaviour {
     public void puzzleDone()
     {
         pDone = true;
+        trofeu.GetComponent<trofeu>().addcont();
     }
 
 }
