@@ -322,10 +322,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 500, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -566,7 +566,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &51320699
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Sword
+  nome: Espada
   but: {fileID: 580680293}
 --- !u!114 &107752501
 MonoBehaviour:
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Key
+  nome: Chave
   but: {fileID: 2019402037}
 --- !u!114 &143803543
 MonoBehaviour:
@@ -1462,7 +1462,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1695,7 +1695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Lunette
+  nome: Luneta
   but: {fileID: 1724103374}
 --- !u!114 &214424137
 MonoBehaviour:
@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1911,7 +1911,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &246145089
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2054,6 +2054,16 @@ Prefab:
         type: 2}
       propertyPath: answer
       value: Perna de pau
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
@@ -2631,7 +2641,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &312738956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3471,7 +3481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &389538483
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3791,7 +3801,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &410665203
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3879,7 +3889,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &415319160
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4087,7 +4097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Hat
+  nome: "Chap\xE9u"
   but: {fileID: 667790113}
 --- !u!114 &428988649
 MonoBehaviour:
@@ -4121,7 +4131,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4374,7 +4384,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &450460945
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4637,6 +4647,16 @@ Prefab:
       propertyPath: answer
       value: Bussola
       objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 500
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
   m_IsPrefabParent: 0
@@ -4710,7 +4730,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &464492025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5837,7 +5857,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &599349732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5915,7 +5935,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &609849746
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6215,7 +6235,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return
+  m_Text: Voltar
 --- !u!222 &637698606
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6423,7 +6443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Ship
+  nome: Navio
   but: {fileID: 578288725}
 --- !u!114 &656189341
 MonoBehaviour:
@@ -6457,7 +6477,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -6755,7 +6775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Bomb
+  nome: Bomba
   but: {fileID: 2096664142}
 --- !u!114 &683699487
 MonoBehaviour:
@@ -6789,7 +6809,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -8196,7 +8216,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &914015348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8399,6 +8419,16 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.y
       value: 405
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
@@ -9159,7 +9189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Mug
+  nome: Caneca
   but: {fileID: 416430767}
 --- !u!114 &1050832488
 MonoBehaviour:
@@ -9193,7 +9223,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -9618,10 +9648,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 500, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -9718,7 +9748,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &1148622334
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9868,7 +9898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &1178353748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10784,7 +10814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Chest
+  nome: "Ba\xFA"
   but: {fileID: 1854547266}
 --- !u!114 &1239734005
 MonoBehaviour:
@@ -10818,7 +10848,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -11120,7 +11150,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return
+  m_Text: Voltar
 --- !u!222 &1333242583
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11412,6 +11442,16 @@ Prefab:
       propertyPath: m_SizeDelta.x
       value: 467.75
       objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 500
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
   m_IsPrefabParent: 0
@@ -11479,10 +11519,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 500, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -11723,7 +11763,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &1373165372
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11867,10 +11907,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 500, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -11964,7 +12004,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return
+  m_Text: Voltar
 --- !u!222 &1401722053
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12983,7 +13023,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return
+  m_Text: Voltar
 --- !u!222 &1526601091
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13193,7 +13233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Pistol
+  nome: Pistola
   but: {fileID: 1929574802}
 --- !u!114 &1556163285
 MonoBehaviour:
@@ -13227,7 +13267,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -13891,7 +13931,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &1621578738
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14053,6 +14093,16 @@ Prefab:
     - target: {fileID: 1883749451826196, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114595013944699482, guid: c75784aab36c2f048be695e76c3cb21a,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c75784aab36c2f048be695e76c3cb21a, type: 2}
@@ -16388,10 +16438,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 500, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -16600,7 +16650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &1852501343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17386,7 +17436,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &1963002841
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17413,7 +17463,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1976823021
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17452,7 +17502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4773127c9b605e45b2f56772474e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Barrel
+  nome: Barril
   but: {fileID: 1193137904}
 --- !u!114 &1976823023
 MonoBehaviour:
@@ -17486,7 +17536,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 288.4, y: 600}
+  m_ReferenceResolution: {x: 280, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -17559,7 +17609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -147.9, y: -359.9}
+  m_AnchoredPosition: {x: -152, y: -371}
   m_SizeDelta: {x: 166.2, y: 50.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2002155578
@@ -18105,7 +18155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Prox
 --- !u!222 &2041085972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19181,7 +19231,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return
+  m_Text: Voltar
 --- !u!222 &2124027643
 CanvasRenderer:
   m_ObjectHideFlags: 0

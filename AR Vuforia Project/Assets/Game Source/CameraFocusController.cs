@@ -18,7 +18,8 @@ public class CameraFocusController : MonoBehaviour
     void Update()
     {
 
-
+        CameraDevice.Instance.SetFocusMode(
+            CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
     }
     private void OnVuforiaStarted()
     {
