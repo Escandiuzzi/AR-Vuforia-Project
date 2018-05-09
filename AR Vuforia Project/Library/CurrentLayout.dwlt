@@ -106,8 +106,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 926
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 10
 --- !u!114 &6
@@ -130,7 +130,7 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 926
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 11
@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 640
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
   controlID: 12
 --- !u!114 &8
@@ -371,7 +371,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0030fcffd830fcff5433fcff5c33fcff9441fcff3643fcffa451fcff5a68fcff5869fcffd46bfcffdc6bfcffeaa6fdffe8a7fdff68aafdff74aafdffeeb6fdffecb7fdff6cbafdff78bafdff98fbffff00000000103100001c310000623100001a320000da3200001e3300009e330000b233000072340000be340000ba350000e835000008360000143600004436000062360000dc360000e8360000f436000000370000ca370000fe3700001a38000026860000b48c0000
+    m_ExpandedIDs: 065bffff0a5cffff865effff8e5effff98fbffff000000006032000038340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,19 +597,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Game Source
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Game Source
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Marlon\Documents\GitHub\AR-Vuforia-Project\AR Vuforia
     Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 40}
-    m_SelectedIDs: ca2f0000
-    m_LastClickedID: 12234
+    m_SelectedIDs: 982a0000
+    m_LastClickedID: 10904
     m_ExpandedIDs: 00000000222a0000982a0000e63c0000e83c0000ea3c0000ec3c0000ee3c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0

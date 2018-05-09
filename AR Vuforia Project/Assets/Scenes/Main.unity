@@ -2124,7 +2124,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
-    m_FontSize: 25
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2135,8 +2135,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "BOM TRABALHO MARUJO.\nVOC\xCA COMPLETOU A MINHA CA\xC7A AO TESOURO, ESTOU
-    ORGULHOSO DE VOC\xCA, USE ESTE CERTIFICADO PARA RECUPERAR SEU PR\xCAMIO!!!\n\n"
+  m_Text: "Parabens marujo, voc\xEA conseguiu resolver o meu desafio, pena que voc\xEA
+    n\xE3o foi o primeiro, agora volte na loja que voc\xEA comprou essas cartas e
+    reclame com o vendedor MUAHAHAHAHA!!!\n\n"
 --- !u!222 &264799557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8617,6 +8618,7 @@ RectTransform:
   - {fileID: 264799555}
   - {fileID: 956308370}
   - {fileID: 1796745066}
+  - {fileID: 1004594031}
   m_Father: {fileID: 406680592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8690,8 +8692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19999999, y: -101}
-  m_SizeDelta: {x: 303, y: 316.6}
+  m_AnchoredPosition: {x: 122, y: -123}
+  m_SizeDelta: {x: 219, y: 259.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956308371
 MonoBehaviour:
@@ -8712,7 +8714,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e951cf2206e5aac45b20feae5849baf0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 10bf0186a092df748a4f75346a438a47, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8810,6 +8812,80 @@ Transform:
   m_Father: {fileID: 488674715}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1004594030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1004594031}
+  - component: {fileID: 1004594033}
+  - component: {fileID: 1004594032}
+  m_Layer: 5
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1004594031
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004594030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 947993074}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -91.5, y: -139.7}
+  m_SizeDelta: {x: 183, y: 142.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1004594032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004594030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 83e791d4496bd6f4cba5996769864323, type: 3}
+    m_FontSize: 32
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Obrigado, mas o seu tesouro esta em outro ba\xFA!!!"
+--- !u!222 &1004594033
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004594030}
 --- !u!1001 &1013895121
 Prefab:
   m_ObjectHideFlags: 0
@@ -17463,7 +17539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1976823021
 RectTransform:
   m_ObjectHideFlags: 0
